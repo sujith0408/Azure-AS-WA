@@ -1,4 +1,4 @@
-# Página web con Azure App Services
+# Página web con Azure App Services y Github
 ![](screenshots/K_007.jpg)
 
 Recordar que Azure App Services es una herramienta que te permite crear una aplicación web en Azure y es necesario tener una cuenta de Azure.
@@ -15,7 +15,7 @@ Desde el [portal de Azure](https://portal.azure.com) es necesario seleccionar la
 - SKU y tamaño (en este caso la opción **Gratis F1**)
 
 ## Revisar y crear 
-Si todo esta bien podemos acceder a nuestro recurso de App Service. Dentro de **Implementación > Centro de implementación** seleccionaremos GitHub como el origen de nuestra aplicación.
+Si todo esta bien podemos acceder a nuestro recurso de App Service. Dentro de **Implementación** > **Centro de implementación** seleccionaremos GitHub como el origen de nuestra aplicación.
 
 ![](screenshots/K_001.jpg)
 
@@ -23,7 +23,7 @@ Si todo esta bien podemos acceder a nuestro recurso de App Service. Dentro de **
 En [GitHub](https://github.com) creamos un repositorio público. 
 ![](screenshots/K_002.jpg)
 
-En nuestra máquina de trabajo creamos los archivos de nuestra aplicación web, en este caso los archivos de nuestra aplicación web estan basados en el [Ejemplo de Azure App Services](https://github.com/josejesusguzman/lab-subir-app-service-azure).
+En nuestra máquina de trabajo creamos los archivos de nuestra aplicación web, en este caso los archivos de nuestra aplicación web estan basados en el [Ejemplo de Azure App Services](https://github.com/adnksharp/Azure-AS-Template).
 ![](screenshots/K_004.jpg)
 
 Después de crear de subir nuestro trabajo al repositorio, en el recurso de App Service seleccionaremos el repositorio que acabamos de crear y lo guardamos.
